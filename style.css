@@ -54,12 +54,12 @@ html,body
     font-weight: 700;
     color: #ffffff;
     margin: 0;
-    padding-bottom: 19.3px;
+    padding-bottom: 30px;
     text-align: center;
     line-height: 45px;
 }
 
-.sec-1-heading2{
+.sec-1-text1{
     font-size: 18px;
     font-family: Poppins, Lobster, sans-serif;
     font-weight: 400;
@@ -67,4 +67,39 @@ html,body
     margin: 0;
     text-align: center;
     line-height: 31.5px;
+    padding-bottom: 87.55px;
 }
+
+.sec-1-btn {
+    background-color: rgb(187, 136, 64);
+    border-color: rgb(187, 136, 64);
+    color: white;
+    border: none;
+    border-width: 1px;
+    border-radius: 10000px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px; /* Adjust as needed */
+    font-weight: bold;
+    font-weight: 700px;
+    padding: 14px 24px; /* Adjust as needed */
+    text-align: center;
+    text-shadow: none;
+    text-decoration: none;
+    position: relative;
+    min-height: 28px;
+    max-width: 420px;
+    width: 100%;
+    display:inline-block;   
+    margin:0 auto;
+    cursor: pointer; /* Adds a pointer cursor on hover */
+  }
+  
+  .sec-1-btn:hover {
+    opacity: 0.9; /* Slightly dims the button on hover */
+    transition-duration: 0.2s;
+    background-color:rgb(136,99,47);
+    border-color:rgb(136,99,47);
+  }
+
+  
+  
