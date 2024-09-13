@@ -80,7 +80,7 @@ html,body
     font-family: "Poppins", sans-serif;
     font-size: 18px; /* Adjust as needed */
     font-weight: bold;
-    font-weight: 700px;
+    font-weight: 700;
     padding: 14px 24px; /* Adjust as needed */
     text-align: center;
     text-shadow: none;
@@ -94,12 +94,61 @@ html,body
     cursor: pointer; /* Adds a pointer cursor on hover */
   }
   
-  .sec-1-btn:hover {
+.sec-1-btn:hover {
     opacity: 0.9; /* Slightly dims the button on hover */
     transition-duration: 0.2s;
     background-color:rgb(136,99,47);
     border-color:rgb(136,99,47);
   }
 
+  .food-plate {
+    display: flex;
+    width: 100%;
+    min-width: 271px;
+    padding-top: 100px;
+  }
+
+.sec-2-container{
+    display: flex;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 67.55px;
+}
+
+.sec-2-inner-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec-2-heading1 {
+    font-family: "Lobster", sans-serif;
+    color: rgb(187, 136, 64);
+    padding-top: 50px;
+    padding-left: 100px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.25px;
+  }
+
+.sec-2-heading2 {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 28px;
+    color: rgb(75, 75, 75);
+    font-weight: 700;
+    line-height: 31.5px;
+    padding-left: 100px;
+}
+
+.sec-2-text1 {
+    color: rgb(107, 107, 107);
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31.5px;
+    padding-left: 100px;
+    width: 90%;
+}
   
   
