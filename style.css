@@ -101,7 +101,7 @@ html,body
     border-color:rgb(136,99,47);
   }
 
-  .food-plate {
+.food-plate {
     display: flex;
     width: 100%;
     min-width: 271px;
@@ -265,3 +265,174 @@ html,body
     width: 30%;
 }
   
+.sec-4-container{
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 67.55px;
+}
+
+.sec-4-inner-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.background2-img{
+    background-color:rgba(255,255,255,0);
+    border-color:rgba(255,255,255,0);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.67), rgba(0, 0, 0, 0.67)), url(https://i.postimg.cc/bvt0rLLD/foodie2-background.jpg);    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+}
+
+.sec-4-heading1 {
+    display: block;
+    font-family: "Lobster", sans-serif;
+    color: rgb(187, 136, 64);
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20.25px;
+    text-align: center;
+  }
+
+.sec-4-heading2 {
+    display: block;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-bottom: 47px;
+    font-weight: 700;
+    line-height: 31.5px;
+    text-align: center;
+}
+
+.inner-column1 {
+    background-color: white;
+    border-color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 360px;
+    width: 500px;
+    margin-left: 425px;
+}
+
+.stars-img {
+    display: block;
+    max-width: 135px;
+    line-height: 24px;
+    padding-left: 57.9px;
+    margin-top: -302.1px;
+}
+
+.inner-column1-text1 {
+    display: block;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 18px;
+    color: rgb(107, 107, 107);
+    padding-left: 57.9px;
+    padding-top: 25px;
+    font-weight: 400;
+    line-height: 31.5px;
+    width: 75%;
+    text-align: left;
+}
+
+.inner-column1-text2 {
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: rgb(107, 107, 107);
+    padding-left: 57.9px;
+    padding-top: 25px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 75%;
+    text-align: left;
+}
+
+.inner-column2 {
+    background-color: white;
+    border-color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 360px;
+    width: 500px;
+    margin-left: 1000px;
+    margin-top: -360px;
+}
+
+.stars-img2 {
+    display: block;
+    max-width: 135px;
+    line-height: 24px;
+    padding-left: 1057.9px;
+    margin-top: -302.1px;
+}
+
+.inner-column2-text1 {
+    display: block;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 18px;
+    color: rgb(107, 107, 107);
+    padding-left: 1057.9px;
+    padding-top: 25px;
+    font-weight: 400;
+    line-height: 31.5px;
+    width: 20%;
+    text-align: left;
+}
+
+.inner-column2-text2 {
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: rgb(107, 107, 107);
+    padding-left: 1057.9px;
+    padding-top: 25px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 75%;
+    text-align: left;
+}
+
+.sec-4-btn {
+    background-color: rgb(187, 136, 64);
+    border-color: rgb(187, 136, 64);
+    color: white;
+    border: none;
+    border-width: 1px;
+    border-radius: 10000px;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-weight: 700;
+    padding: 14px 24px;
+    text-align: center;
+    text-shadow: none;
+    text-decoration: none;
+    position: relative;
+    min-height: 28px;
+    max-width: 580px;
+    width: 100%;
+    display:block;   
+    margin:0 auto;
+    margin-top: 100px;
+    cursor: pointer;
+  }
+  
+.sec-4-btn:hover {
+    opacity: 0.9; 
+    transition-duration: 0.2s;
+    background-color:rgb(136,99,47);
+    border-color:rgb(136,99,47);
+  }
