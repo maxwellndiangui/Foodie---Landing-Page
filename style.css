@@ -470,3 +470,106 @@ html,body
     margin-top: -55px;
     text-align: center;  
 }
+
+/* Mobile Responsiveness - If Smaller than 500px then Run Code Below */
+@media only screen and (max-width: 500px) {
+    .inner-row {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .background-img, .background2-img {
+        height: 50vh;
+        background-attachment: scroll;
+    }
+
+    .foodie-logo {
+        max-width: 50px;
+        padding-top: 20px;
+    }
+
+    .sec-1-inner-container {
+        max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .sec-1-heading1 {
+        font-size: 28px;
+        line-height: 35px;
+        padding-bottom: 20px;
+    }
+
+    .sec-1-text1 {
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 50px;
+    }
+
+    .sec-1-btn, .sec-4-btn {
+        max-width: 300px;
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+
+    .food-plate {
+        width: 100%;
+        min-width: 150px;
+        padding-top: 50px;
+    }
+
+    .sec-2-heading1, .sec-2-heading2, .sec-2-text1 {
+        padding-left: 10px;
+    }
+
+    .sec-2-heading1 {
+        font-size: 16px;
+        padding-top: 30px;
+    }
+
+    .sec-2-heading2 {
+        font-size: 22px;
+    }
+
+    .sec-2-text1 {
+        font-size: 16px;
+        line-height: 24px;
+        width: 80%;
+    }
+    .sec-3-inner-heading1, .sec-3-inner-heading2, .sec-3-inner-heading3 {
+        text-align: center;
+    }
+
+    .sec-3-inner-heading2 {
+        padding-top: 50px;
+        margin-top: 80px;
+    }
+
+    .sec-3-inner-heading3 {
+        padding-top: 50px;
+        margin-top: 80px;
+    }
+
+    .sec-3-inner-text1, .sec-3-inner-text2, .sec-3-inner-text3 {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px !important;
+        padding-left: 0;
+    }
+
+    .sec-3-inner-text1 {
+        margin-top: -320px !important;
+    }
+
+    .sec-3-inner-text2 {
+        margin-top: 60px !important;
+    }
+
+    .sec-3-inner-text3 {
+        margin-top: 60px !important;
+    }
+
+}
+
+
+
