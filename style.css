@@ -478,9 +478,13 @@ html,body
         padding: 10px;
     }
 
-    .background-img, .background2-img {
+    .background-img {
         height: 50vh;
         background-attachment: scroll;
+    }
+
+    .background2-img {
+        height: 100vh;
     }
 
     .foodie-logo {
@@ -567,6 +571,62 @@ html,body
 
     .sec-3-inner-text3 {
         margin-top: 60px !important;
+    }
+
+    .sec-4-heading1, .sec-4-heading2 {
+        font-size: 24px;
+    }
+
+    .inner-column1 {
+        padding-top: 260px;
+        width: 375px;
+        margin-left: 50px;
+    }
+
+    .stars-img {
+        max-width: 100px;
+        padding-top: 70px;
+    }
+
+    .inner-column1-text1 {
+        font-size: 14px;
+    }
+
+    .inner-column1-text2 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .inner-column2 {
+        padding-top: 280px;
+        width: 375px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+    .stars-img2 {
+        max-width: 100px;
+        padding-left: 57.9px;
+        padding-top: 45px;
+        margin-left: 50px;
+    }
+
+    .inner-column2-text1 {
+        width: 60%;
+        font-size: 14px;
+        padding-left: 57.9px;
+        margin-left: 50px;
+    }
+
+    .inner-column2-text2 {
+        font-size: 15px;
+        padding-left: 57.9px;
+        margin-left: 50px;
+
+    }
+
+    .sec-4-btn {
+        margin-top: 45px !important;
     }
 
 }
