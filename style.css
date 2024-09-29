@@ -524,7 +524,7 @@ html,body
     }
 
     .sec-2-heading1, .sec-2-heading2, .sec-2-text1 {
-        padding-left: 20px;
+        padding-left: 20px !important;
     }
 
     .sec-2-heading1 {
@@ -565,6 +565,7 @@ html,body
     }
 
     .sec-3-inner-text1 {
+        width: 95% !important ;
     }
 
     .sec-3-inner-text2 {
@@ -572,6 +573,7 @@ html,body
     }
 
     .sec-3-inner-text3 {
+        width: 95% !important ;
         padding-top: 50px;
     }
 
@@ -645,6 +647,170 @@ html,body
 
 /* Laptops, Small screens (if smaller than 1024px then run code)*/
 @media only screen and (max-width:1024px){
+    .inner-row {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .background-img {
+        height: 50vh;
+        background-attachment: scroll;
+    }
+
+    .background2-img {
+        height: 120vh;
+        background-attachment: scroll;
+    }
+
+    .foodie-logo {
+        max-width: 50px;
+        padding-top: 20px;
+    }
+
+    .sec-1-inner-container {
+        max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .sec-1-heading1 {
+        font-size: 28px;
+        line-height: 35px;
+        padding-bottom: 20px;
+    }
+
+    .sec-1-text1 {
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 50px;
+    }
+
+    .sec-1-btn, .sec-4-btn {
+        max-width: 300px;
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+
+    .food-plate {
+        width: 100%;
+        min-width: 150px;
+        padding-top: 50px;
+        margin-left: 20px;
+    }
+
+    .sec-2-heading1, .sec-2-heading2, .sec-2-text1 {
+    }
+
+    .sec-2-heading1 {
+        font-size: 16px;
+        padding-top: 30px;
+    }
+
+    .sec-2-heading2 {
+        font-size: 22px;
+    }
+
+    .sec-2-text1 {
+        font-size: 16px;
+        line-height: 24px;
+        width: 80%;
+    }
+
+    .sec-3-heading2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .sec-3-inner-heading1, .sec-3-inner-heading2, .sec-3-inner-heading3 {
+    }
+
+    .sec-3-inner-heading2 {
+    }
+
+    .sec-3-inner-heading3 {
+    }
+
+    .sec-3-inner-text1, .sec-3-inner-text2, .sec-3-inner-text3 {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px !important;
+        padding-left: 0;
+    }
+
+    .sec-3-inner-text1 {
+    }
+
+    .sec-3-inner-text2 {
+        width: 95% !important;
+        padding-top: 50px;
+    }
+
+    .sec-3-inner-text3 {
+        width: 95% !important;
+        padding-top: 50px;
+    }
+
+    .sec-4-heading1, .sec-4-heading2 {
+        font-size: 24px;
+    }
+
+    .sec-4-heading2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .inner-column1 {
+        padding-top: 260px;
+        width: 325px;
+        margin-left: 250px;
+    }
+
+    .stars-img {
+        max-width: 100px;
+        padding-top: 70px;
+    }
+
+    .inner-column1-text1 {
+        font-size: 14px;
+    }
+
+    .inner-column1-text2 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .inner-column2 {
+        padding-top: 260px;
+        padding-bottom: 50px;
+        width: 325px;
+        margin-left: 250px;
+        margin-top: 50px;
+    }
+
+    .stars-img2 {
+        max-width: 100px;
+        padding-left: 37.9px;
+        padding-top: 10px;
+        margin-left: 270px;
+    }
+
+    .inner-column2-text1 {
+        width: 30%;
+        font-size: 14px;
+        padding-left: 37.9px;
+        margin-left: 270px;
+    }
+
+    .inner-column2-text2 {
+        font-size: 15px;
+        padding-left: 37.9px;
+        margin-left: 270px;
+
+    }
+
+    .sec-4-btn {
+        margin-top: 120px !important;
+    }
 }
 
 /* iPads, Tablets (if smaller than 768px then run code)*/
@@ -744,10 +910,12 @@ html,body
     }
 
     .sec-3-inner-text2 {
+        width: 95% !important;
         padding-top: 50px;
     }
 
     .sec-3-inner-text3 {
+        width: 95% !important;
         padding-top: 50px;
     }
 
@@ -763,7 +931,7 @@ html,body
     .inner-column1 {
         padding-top: 260px;
         width: 325px;
-        margin-left: 30px;
+        margin-left: 200px;
     }
 
     .stars-img {
@@ -782,9 +950,9 @@ html,body
 
     .inner-column2 {
         padding-top: 260px;
-        padding-bottom: 60px;
+        padding-bottom: 50px;
         width: 325px;
-        margin-left: 30px;
+        margin-left: 200px;
         margin-top: 50px;
     }
 
@@ -792,20 +960,20 @@ html,body
         max-width: 100px;
         padding-left: 37.9px;
         padding-top: 10px;
-        margin-left: 50px;
+        margin-left: 220px;
     }
 
     .inner-column2-text1 {
-        width: 60%;
+        width: 30%;
         font-size: 14px;
         padding-left: 37.9px;
-        margin-left: 50px;
+        margin-left: 220px;
     }
 
     .inner-column2-text2 {
         font-size: 15px;
         padding-left: 37.9px;
-        margin-left: 50px;
+        margin-left: 220px;
 
     }
 
