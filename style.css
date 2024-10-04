@@ -479,12 +479,12 @@ html,body
     }
 
     .background-img {
-        height: 70vh;
+        height: 70vh !important;
         background-attachment: scroll;
     }
 
     .background2-img {
-        height: 150vh;
+        height: 170vh !important;
         background-attachment: scroll;
     }
 
@@ -548,18 +548,19 @@ html,body
     }
 
     .sec-3-inner-heading1, .sec-3-inner-heading2, .sec-3-inner-heading3 {
-        font-size: 12px !important;
+        font-size: 10px !important;
     }
 
     .sec-3-inner-heading2 {
     }
 
     .sec-3-inner-heading3 {
+        
     }
 
     .sec-3-inner-text1, .sec-3-inner-text2, .sec-3-inner-text3 {
         text-align: center;
-        font-size: 13px !important;
+        font-size: 10px !important;
         margin-top: 20px !important;
         padding-left: 0;
     }
@@ -575,7 +576,7 @@ html,body
 
     .sec-3-inner-text3 {
         width: 30% !important ;
-        margin-left: -170px;
+        margin-left: -230px;
     }
 
     .sec-4-heading1, .sec-4-heading2 {
@@ -589,8 +590,8 @@ html,body
 
     .inner-column1 {
         padding-top: 260px;
-        width: 325px;
-        margin-left: 50px !important;
+        width: 310px !important;
+        margin-left: 35px !important;
     }
 
     .stars-img {
@@ -610,15 +611,14 @@ html,body
     .inner-column2 {
         padding-top: 260px;
         padding-bottom: 60px;
-        width: 325px;
-        margin-left: 50px !important;
+        width: 310px !important;
+        margin-left: 35px !important;
         margin-top: 50px;
     }
 
     .stars-img2 {
         max-width: 100px;
         padding-left: 57.9px !important;
-        padding-top: 10px;
         margin-left: 50px;
     }
 
@@ -644,6 +644,173 @@ html,body
 
 /* Desktops, Large screens (if smaller than 1200px then run code)*/
 @media only screen and (max-width:1200px){
+    .inner-row {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .background-img {
+        height: 50vh;
+        background-attachment: scroll;
+    }
+
+    .background2-img {
+        height: 120vh;
+        background-attachment: scroll;
+    }
+
+    .foodie-logo {
+        max-width: 50px;
+        padding-top: 20px;
+    }
+
+    .sec-1-inner-container {
+        max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .sec-1-heading1 {
+        font-size: 28px;
+        line-height: 35px;
+        padding-bottom: 20px;
+    }
+
+    .sec-1-text1 {
+        font-size: 16px;
+        line-height: 24px;
+        padding-bottom: 50px;
+    }
+
+    .sec-1-btn, .sec-4-btn {
+        max-width: 300px;
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+
+    .food-plate {
+        width: 100%;
+        min-width: 200px;
+        padding-top: 50px;
+        margin-left: 20px;
+    }
+
+    .sec-2-heading1, .sec-2-heading2, .sec-2-text1 {
+    }
+
+    .sec-2-heading1 {
+        font-size: 16px;
+        padding-top: 30px;
+    }
+
+    .sec-2-heading2 {
+        font-size: 22px;
+    }
+
+    .sec-2-text1 {
+        font-size: 16px;
+        line-height: 24px;
+        width: 90%;
+    }
+
+    .sec-3-heading2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .sec-3-inner-heading1, .sec-3-inner-heading2, .sec-3-inner-heading3 {
+    }
+
+    .sec-3-inner-heading2 {
+    }
+
+    .sec-3-inner-heading3 {
+    }
+
+    .sec-3-inner-text1, .sec-3-inner-text2, .sec-3-inner-text3 {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px !important;
+        padding-left: 0;
+    }
+
+    .sec-3-inner-text1 {
+        width: 30% !important;
+        margin-left: -25px !important;
+    }
+
+    .sec-3-inner-text2 {
+        width: 30% !important;
+        margin-top: -125px !important;
+    }
+
+    .sec-3-inner-text3 {
+        width: 30% !important;
+        padding-left: 700px !important;
+        margin-top: -125px !important;
+    }
+
+    .sec-4-heading1, .sec-4-heading2 {
+        font-size: 24px;
+    }
+
+    .sec-4-heading2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .inner-column1 {
+        padding-top: 260px;
+        width: 325px;
+        margin-left: 420px;
+    }
+
+    .stars-img {
+        max-width: 100px;
+        padding-top: 70px;
+    }
+
+    .inner-column1-text1 {
+        font-size: 14px;
+    }
+
+    .inner-column1-text2 {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .inner-column2 {
+        padding-top: 260px;
+        padding-bottom: 50px;
+        width: 325px;
+        margin-left: 420px;
+        margin-top: 50px;
+    }
+
+    .stars-img2 {
+        max-width: 100px;
+        padding-left: 197.9px;
+        padding-top: 10px;
+        margin-left: 270px;
+    }
+
+    .inner-column2-text1 {
+        width: 20%;
+        font-size: 14px;
+        padding-left: 197.9px;
+        margin-left: 270px;
+    }
+
+    .inner-column2-text2 {
+        font-size: 15px;
+        padding-left: 197.9px;
+        margin-left: 270px;
+
+    }
+
+    .sec-4-btn {
+        margin-top: 120px !important;
+    }
 }
 
 /* Laptops, Small screens (if smaller than 1024px then run code)*/
